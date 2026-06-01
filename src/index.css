@@ -1,0 +1,54 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#0a0a0a;
+  color:white;
+  font-family:Arial, sans-serif;
+  scroll-behavior:smooth;
+  background: #000;
+  overflow-x: hidden;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+   radial-gradient(circle at 10% 20%, rgba(255,45,45,0.25), transparent 35%),
+radial-gradient(circle at 90% 10%, rgba(255,45,45,0.18), transparent 35%),
+radial-gradient(circle at 50% 80%, rgba(255,45,45,0.15), transparent 40%);
+  filter: blur(100px);
+  animation: moveAurora 10s infinite alternate;
+  z-index: -1;
+}
+
+@keyframes moveAurora {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: black;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ff2d2d;
+}
