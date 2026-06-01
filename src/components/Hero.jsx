@@ -1,4 +1,4 @@
-import profile from "../assets/profile.JPG";
+import profile from "../assets/profile.jpg";
 import resume from "../assets/resume.pdf";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
