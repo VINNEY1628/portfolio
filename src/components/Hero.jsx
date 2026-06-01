@@ -142,15 +142,13 @@ function Hero() {
       </motion.div>
 
       {/* RIGHT SIDE */}
-      <div
-        style={{
-          position: "relative",
-          width: "450px",
-          height: "450px",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
+     <div
+  style={{
+    position: "relative",
+    width: "min(90vw, 450px)",
+    height: "min(90vw, 450px)",
+  }}
+
       >
         {/* Animated Circle 1 */}
         <motion.div
