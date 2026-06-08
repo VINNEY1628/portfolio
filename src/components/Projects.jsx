@@ -32,6 +32,27 @@ function Projects() {
       
     },
     {
+  title: "AI Code Reviewer",
+  tech: "Python • Flask • Groq AI • JavaScript • HTML • CSS • ReportLab",
+  icon: "🤖",
+  github: "https://github.com/VINNEY1628/AI-Code-Reviewer",
+  description:
+    "Developed an AI-powered code review platform that analyzes source code, detects bugs, suggests improvements, generates optimized code, and provides professional review reports using Large Language Models.",
+
+  features: [
+    "AI-powered code analysis and review",
+    "Automatic bug and issue detection",
+    "Code quality scoring system",
+    "Time complexity analysis",
+    "AI-generated optimized code suggestions",
+    "One-click code fixing using Groq LLM",
+    "Interactive AI assistant for code-related queries",
+    "Professional PDF and DOCX report generation",
+    "Dark-themed responsive user interface",
+    "Cloud deployment using Render"
+  ]
+},
+    {
   title: "IoT-Based Face Attendance Tracking System",
   tech: "Python • OpenCV • Tkinter • NumPy • Pandas • Face Recognition",
   icon: "📷",
@@ -49,6 +70,7 @@ function Projects() {
     "Reduced manual attendance errors and proxy attendance"
   ]
 }
+
   
   ];
 
